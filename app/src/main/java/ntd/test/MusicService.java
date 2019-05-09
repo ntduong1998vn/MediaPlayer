@@ -89,7 +89,6 @@ public class MusicService extends Service implements MediaPlayer.OnPreparedListe
 
     @Override
     public boolean onError(MediaPlayer mediaPlayer, int i, int i1) {
-
         // TODO The MediaPlayer has moved to the Error state, must be reset!
         return false;
     }

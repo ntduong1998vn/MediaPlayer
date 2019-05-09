@@ -30,7 +30,7 @@ import java.util.Collections;
 import java.util.Comparator;
 
 
-public class MainActivity extends AppCompatActivity implements MediaController.MediaPlayerControl {
+public class MainActivity extends AppCompatActivity  {
 
     private static final int MY_PERMISSION_REQUEST = 1;
 
@@ -186,58 +186,5 @@ public class MainActivity extends AppCompatActivity implements MediaController.M
         //TODO Xử lý sau khi đã chuyển đổi trạng thái màn hình
     }
 
-    @Override
-    public void start() {
 
-    }
-
-    @Override
-    public void pause() {
-
-    }
-
-    @Override
-    public int getDuration() {
-        return 0;
-    }
-
-    @Override
-    public int getCurrentPosition() {
-        return 0;
-    }
-
-    @Override
-    public void seekTo(int i) {
-
-    }
-
-    @Override
-    public boolean isPlaying() {
-        return false;
-    }
-
-    @Override
-    public int getBufferPercentage() {
-        return 0;
-    }
-
-    @Override
-    public boolean canPause() {
-        return false;
-    }
-
-    @Override
-    public boolean canSeekBackward() {
-        return false;
-    }
-
-    @Override
-    public boolean canSeekForward() {
-        return false;
-    }
-
-    @Override
-    public int getAudioSessionId() {
-        return 0;
-    }
 }
